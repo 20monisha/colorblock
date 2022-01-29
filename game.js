@@ -52,7 +52,9 @@ function nextSequence(){
 }
 
 function playsound(name){
-  var audio=new Audio(name+".mp3");
+//   var audio=new Audio(name+".mp3");
+//   audio.play();
+  var audio=new Audio("green.mp3");
   audio.play();
 }
 
